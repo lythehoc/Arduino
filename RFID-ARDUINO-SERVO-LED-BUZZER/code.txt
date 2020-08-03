@@ -55,7 +55,7 @@ void loop()
 
   if (content.substring(1) == "E9 6C BE C1" || content.substring(1) == "F3 2E D6 0C") //change here the UID of the card/cards that you want to give access
   {
-    Serial.println("XIN MỜI VÀO !");
+    Serial.println("XIN MỜI VÀO !\n");
     Serial.println();
     delay(500);
     digitalWrite(LED_G, HIGH);
@@ -69,7 +69,7 @@ void loop()
   }
 
  else   {
-    Serial.println("CHÚ LÀ AI ??!??!??");
+    Serial.println("CHÚ LÀ AI ??!??!??\n");
     digitalWrite(LED_R, HIGH);
     tone(BUZZER, 300);
     delay(1000);

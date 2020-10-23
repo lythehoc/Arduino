@@ -1,3 +1,2 @@
 # Arduino
-Lập trình nhúng
-GDU
+Lập trình nhúng - GDU
